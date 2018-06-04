@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as import pd
+import pandas as  pd
 import pickle
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
