@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
-pickle_in=open("data_1.pickle","rb")
+pickle_in=open("/result/data_1.pickle","rb")
 data_1=pickle.load(pickle_in)
 
 corelation_value=data_1.corr()["SystolicBP"][0:-1]
