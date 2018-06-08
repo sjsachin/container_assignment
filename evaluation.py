@@ -2,10 +2,10 @@ import pickle
 import numpy as np
 import pandas as pd
 
-pickle_in=open("model_1_score.pickle","rb")
+pickle_in=open("/result/model_1_score.pickle","rb")
 model_1_score=pickle.load(pickle_in)
 
-pickle_in=open("model_2_score.pickle","rb")
+pickle_in=open("/result/model_2_score.pickle","rb")
 model_2_score=pickle.load(pickle_in)
 
 from datetime import datetime
